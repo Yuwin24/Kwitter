@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Kwitter Message page</title>
+    <script src="https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.en.RrjSsKk8Szw.O/m=gapi_iframes/rt=j/sv=1/d=1/ed=1/am=AQ/rs=AGLTcCPwd_oodKkRT_hYRO1I-9xRcQV4oQ/cb=gapi.loaded_0" async=""></script><script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+    
+    <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&amp;display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" charset="UTF-8" src="https://apis.google.com/js/api.js?onload=__iframefcb166855" gapi_processed="true"></script></head>
+    <body>
+    
+    <div class="container">
+        <button id="logout" onclick="logout()" class="glyphicon glyphicon-log-out btn btn-danger">Logout</button>
+        <center>
+            <br><h1 class="header">	
+                Kwitter	
+                <sup>
+                    <img src="message.gif">
+                </sup>
+            </h1>
+            <div id="output" style="text-align: left;margin-bottom: 70px;"></div>
+        </center>
+    </div>
+    
+    <center>
+        <div class="input_div_message_page">
+            <label>Send:</label>
+            <input id="msg" class="form-control" placeholder="enter your message" type="text">
+            <button onclick="send()" class="send">Send</button><br><br>
+        </div>
+    </center>
+    
+    <script src="talk.js"></script>
+    
+    <iframe ng-non-bindable="" hspace="0" marginheight="0" marginwidth="0" scrolling="no" style="position: absolute; top: -100px; width: 1px; height: 1px;" tabindex="0" vspace="0" id="I0_1619001117037" name="I0_1619001117037" src="https://lets-chat-f99ef.firebaseapp.com/__/auth/iframe?apiKey=AIzaSyBHotio-NQjAoguQaO4aP1UKBCMqLfb_Eg&amp;appName=%5BDEFAULT%5D&amp;v=3.1.0&amp;usegapi=1&amp;jsh=m%3B%2F_%2Fscs%2Fapps-static%2F_%2Fjs%2Fk%3Doz.gapi.en.RrjSsKk8Szw.O%2Fam%3DAQ%2Fd%3D1%2Fct%3Dzgms%2Frs%3DAGLTcCPwd_oodKkRT_hYRO1I-9xRcQV4oQ%2Fm%3D__features__#id=I0_1619001117037&amp;_gfid=I0_1619001117037&amp;parent=https%3A%2F%2Fniveditha10.github.io&amp;pfname=&amp;rpctoken=37156448" width="100%" frameborder="0"></iframe></body>
